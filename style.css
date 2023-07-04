@@ -1,0 +1,136 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: auto 0;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.zone {
+    cursor:pointer;
+    display: grid;
+    color:#FFF;
+    font-size:2em;
+    transition: all 0.3s linear;
+}
+
+.navbar{
+    display: flex;
+    margin: 0px;
+    list-style: none;
+    font-size: 0.7em;
+    justify-content: flex-start;
+    align-items: center;
+    height: 5vh;
+}
+
+.navbar li {
+    padding: 20px;
+    color: black;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.push{
+    margin-left: auto;
+}
+
+.red{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.red > img {
+    height: 60%;
+}
+
+
+.grid-wrapper{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > img{
+    width: 100%;
+}
+
+.box {
+    background-color: #444;
+    padding: 130px;
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green{
+    background: #FFCFBF; /* Old browsers */
+    background: -moz-linear-gradient(top, #FFCFBF 0%, #FFEFBF 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFCFBF), color-stop(100%,#FFEFBF)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #FFCFBF 0%,#FFEFBF 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #FFCFBF 0%,#FFEFBF 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #FFCFBF 0%,#FFEFBF 100%); /* IE10+ */
+    background: linear-gradient(top, #FFCFBF 0%,#FFEFBF 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red{
+    background-color: #ffefbf;; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffefbf 0%, #cf0404 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,##ffefbf), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, ##ffefbf 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, ##ffefbf 0%,#cf0404 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, ##ffefbf 0%,#cf0404 100%); /* IE10+ */
+    background: linear-gradient(top, ##ffefbf 0%,#cf0404 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow{
+    background: #ffefbf; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffefbf 0%, #febf04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffefbf), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffefbf 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffefbf 0%,#febf04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffefbf 0%,#febf04 100%); /* IE10+ */
+    background: linear-gradient(top, #ffefbf 0%,#febf04 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue{
+    background: #FFEFBF; /* Old browsers */
+    background: -moz-linear-gradient(top, #FFEFBF 0%, #60abf8 44%, #EFFFBF 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFEFBF), color-stop(44%,#60abf8), color-stop(100%,#EFFFBF)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #FFEFBF 0%,#60abf8 44%,#EFFFBF 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #FFEFBF 0%,#60abf8 44%,#EFFFBF 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #FFEFBF 0%,#60abf8 44%,#EFFFBF 100%); /* IE10+ */
+    background: linear-gradient(top, #FFEFBF 0%,#60abf8 44%,#EFFFBF 100%); /* W3C */
+}
